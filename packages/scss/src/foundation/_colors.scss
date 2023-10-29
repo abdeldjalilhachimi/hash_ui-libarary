@@ -1,0 +1,53 @@
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+/*=============================================
+ =            Global Text Colors               =
+ =============================================*/
+
+$body-text-color: var(--hash_ui-body-text-color, $dark) !default;
+$body-bg-color: var(--hash_ui-body-bg-color, $white) !default;
+
+/*=============================================
+=                Buttons                      =
+=============================================*/
+
+$btn-primary-color: var(--hash_ui-btn-primary-color, $white) !default;
+
+$btn-primary-bg: var(--hash_ui-btn-primary-bg, $green) !default;
+
+$btn-primary-bg-hover: var(
+  --hash_ui-btn-primary-bg-hover,
+  $green-light
+) !default;
+
+/*=============================================
+=                 Forms                       =
+=============================================*/
+
+$form-border-color: var(--hash_ui-form-border-color, $white-dark) !default;
+$form-bg-color: var(--hash_ui-form-bg-color, $white) !default;
+$form-bg-option-selected: var(
+  --hash_ui-form-bg-option-selected,
+  $green
+) !default;
+$form-color-option-selected: var(
+  --hash_ui-form-color-option-selected,
+  $white
+) !default;
+$form-bg-color-hover: var(--hash_ui-form-bg-color-hover, $white-dark) !default;
+$form-color: var(--hash_ui-form-color, $dark) !default;
+$form-bg: var(--hash_ui-form-bg, $white) !default;
+$form-error-color: var(--hash_ui-form-error-color, $red) !default;
+$form-error-border: var(--hash_ui-form-error-border, $red) !default;
+$form-border-focus-color: var(
+  --hash_ui-form-border-focus-color,
+  $green
+) !default;

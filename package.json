@@ -1,0 +1,17 @@
+{
+  "name": "hash-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^7.4.1"
+  }, 
+  "workspaces":{
+    "packages" :["packages/*", "playgrounds/*"], 
+     "nohoist": ["**/normalize-scss"]
+    }, 
+  "private" : true, 
+  "scripts": {
+    "build" : "yarn lerna run build"
+  }
+}

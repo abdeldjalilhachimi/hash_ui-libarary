@@ -1,0 +1,38 @@
+/*=============================================
+=            Mixins                           =
+=============================================*/
+
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+
+/*
+    example of use 
+    .body {
+        font-size: 12px; 
+        @include tablet { use this when breakpoint is tablet
+            font-size: 12px;   
+        }
+    }
+*/
+
+@mixin tablet {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}

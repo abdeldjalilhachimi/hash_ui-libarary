@@ -1,0 +1,34 @@
+:root {
+  --hash_ui-body-text-color: #{$dark};
+  --hash_ui-body-bg-color: #{$white};
+
+  --hash_ui-btn-primary-color: #{$white};
+  --hash_ui-btn-primary-bg: #{$green};
+  --hash_ui-btn-primary-bg-hover: #{$green-light};
+
+  --hash_ui-btn-secondary-color: #{$white};
+  --hash_ui-btn-secondary-bg: #{$dark};
+
+  --hash_ui-form-color: #{$dark};
+  --hash_ui-form-bg: #{$white};
+  --hash_ui-form-error-color: #{$red};
+  --hash_ui-form-error-border: #{$red};
+  --hash_ui-form-border-focus-color: #{$green};
+
+  --hash_ui-body-font-size: #{$fs-base};
+  --hash_ui-body-font-weight: #{$fw-normal};
+
+  --hash_ui-h1-font-size: #{$h-1};
+  --hash_ui-h2-font-size: #{$h-2};
+  --hash_ui-h3-font-size: #{$h-3};
+  --hash_ui-h4-font-size: #{$h-4};
+  --hash_ui-h5-font-size: #{$h-5};
+  --hash_ui-h6-font-size: #{$h-6};
+
+  --hash_ui-h1-font-weight: #{$fw-medium};
+  --hash_ui-h2-font-weight: #{$fw-medium};
+  --hash_ui-h3-font-weight: #{$fw-medium};
+  --hash_ui-h4-font-weight: #{$fw-normal};
+  --hash_ui-h5-font-weight: #{$fw-normal};
+  --hash_ui-h6-font-weight: #{$fw-light};
+}
